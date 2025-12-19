@@ -1,0 +1,1 @@
+add_executable(Task28_3_Kitchen main.cpp)

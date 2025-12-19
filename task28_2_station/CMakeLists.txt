@@ -1,0 +1,1 @@
+add_executable(Task28_2_Station main.cpp)

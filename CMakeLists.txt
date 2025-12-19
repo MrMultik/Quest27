@@ -4,6 +4,10 @@ project(Quest27)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+# ===============================
+# Практика 27
+# ===============================
+
 # Task 1 - Geometry
 add_executable(Task1_Geometry
     task1_geometry/main.cpp
@@ -30,3 +34,22 @@ add_executable(Task3_Elves
     task3_elves/src/Branch.cpp
 )
 target_include_directories(Task3_Elves PRIVATE task3_elves/include)
+
+# ===============================
+# Практика 28 (многопоточность)
+# ===============================
+
+# Task 28.1 - Swimming
+add_executable(Task28_1_Swimming
+    task28_1_swimming/main.cpp
+)
+
+# Task 28.2 - Station
+add_executable(Task28_2_Station
+    task28_2_station/main.cpp
+)
+
+# Task 28.3 - Kitchen
+add_executable(Task28_3_Kitchen
+    task28_3_kitchen/main.cpp
+)
